@@ -9,10 +9,9 @@
 
 /* background */
 .welcome{
-    background-image: url('../img/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
-    background-size: 750px 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-image: url('../img/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg');
+    background-size: cover;
+
 }
 /* .cereza{
     background-image: url('/img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
@@ -24,6 +23,9 @@
 @media screen and (min-width: 400px) {
     /* background */
     .welcome{
+        background-image: url('../img/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
 }
