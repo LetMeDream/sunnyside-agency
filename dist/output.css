@@ -738,18 +738,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: calc(100% - 0.25rem);
 }
 
-.h-64 {
-  height: 16rem;
-}
-
-.h-\[220px\] {
-  height: 220px;
-}
-
-.h-\[420px\] {
-  height: 420px;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -762,16 +750,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 91.666667%;
 }
 
-.w-7\/12 {
-  width: 58.333333%;
-}
-
-.w-\[200\%\] {
-  width: 200%;
-}
-
 .w-\[600px\] {
   width: 600px;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
 }
 
 .flex-shrink {
@@ -2371,6 +2355,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 600px;
 }
 
 @media screen and (min-width: 400px) {
