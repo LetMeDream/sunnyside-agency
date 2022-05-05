@@ -2341,18 +2341,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 /* background */
 
 .welcome{
-  background-image: url('./img/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
+  background-image: url('../img/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg');
   background-size: 750px 100%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-.cereza{
-  background-image: url('/img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 600px;
+/* .cereza{
+    background-image: url('/img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
 }
+ */
 
 @media screen and (min-width: 400px) {
   /* background */
