@@ -2450,6 +2450,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 2rem;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .md\:block {
     display: block;
   }
