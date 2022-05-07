@@ -56,9 +56,9 @@
     <!-- Egg -->
     <div class="flex flex-col-reverse md:flex-row">
         <!-- Transform your brand -->
-        <div class="w-full md:w-2/4 flex justify-center items-center">
+        <div class="w-full py-4 md:w-2/4 flex justify-center items-center">
             <!-- text -->
-            <div class=" flex flex-col space-y-12 w-full md:w-[70%] p-10 py-14 md:p-0 text-center md:text-left">
+            <div class="flex flex-col md:space-y-6 lg:space-y-14 w-full md:w-[70%] p-10 py-14 md:p-0 text-center md:text-left">
                 <h1 class="text-veryDarkSaturatedBlue font-extrabold font-fraunces text-5xl">Transform your brand</h1>
                 <p class="text-lg font-barlow font-black ">
                     We are a full-service creative agency specializing in
@@ -81,26 +81,28 @@
     <div class="flex flex-col md:flex-row">
 
         <!-- img Glass Stand out -->
-        <div class="w-full md:w-2/4">
-            <img src="./img/sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg" alt="">
+        <div class="md:w-2/4">
+            <img class="h-full w-full" src="./img/sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg" alt="">
         </div>
 
         <!-- Stand out -->
-        <div class="w-full md:w-2/4 flex justify-center items-center p-2 py-12 md:p-0 text-center md:text-left">
+        <div class="w-full md:w-2/4 flex justify-center md:items-center p-2 py-12 md:p-0 text-center md:text-left">
             <!-- text -->
-            <div class="w-11/12 flex flex-col space-y-12">
-                <h1 class="text-veryDarkSaturatedBlue font-extrabold font-fraunces text-5xl">
-                    Stand out to the right
-                    audience
-                </h1>
-                <p class="text-lg font-barlow font-black ">
-                    Using a collaborative formula of designers, researchers
-                    photographers, videographers, and copywriters, we'll
-                    build and extend your brand in digital places. 
-                </p>
-                <a  class="font-fraunces font-semibold text-veryDarkSaturatedBlue uppercase"
-                    href="">Learn More</a>
-            </div>
+                <div class="w-[72%] py-4 lg:py-0 flex flex-col lg:space-y-14 md:space-y-6">
+
+                                <h1 class="text-veryDarkSaturatedBlue font-extrabold font-fraunces text-5xl">
+                                    Stand out to the right
+                                    audience
+                                </h1>
+                                <p class="text-lg font-barlow font-black ">
+                                    Using a collaborative formula of designers, researchers
+                                    photographers, videographers, and copywriters, we'll
+                                    build and extend your brand in digital places. 
+                                </p>
+                                <a  class="font-fraunces font-semibold text-veryDarkSaturatedBlue uppercase"
+                                    href="">Learn More</a>
+                                    
+                </div>
             
 
         </div>
@@ -110,15 +112,15 @@
     </div>
 
     <!-- Fruits; desktop only -->
-    <div class="hidden md:flex flex-col md:flex-row">
+    <div class="hidden sm:flex flex-col sm:flex-row md:min-h-[400px]">
         <!-- cereza -->
-        <div class="md:w-2/4 flex justify-center items-center relative">
+        <div class="sm:w-2/4 flex justify-center relative">
 
             <!-- img as background -->
             <img class="-z-10" src="./img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg">
 
             <!-- Graphic design text -->
-            <div class="absolute w-7/12 text-center bottom-20">
+            <div class="absolute w-9/12 text-center md:bottom-6 lg:bottom-20">
                 <p class="text-darkSaturatedCyan font-bold text-2xl">Graphic design</p>
                 <p class="mt-4 font-semibold text-darkSaturatedCyan">
                     Great designs make you memorable. We deliver
@@ -130,13 +132,13 @@
         </div>
 
         <!-- naranja -->
-        <div class="md:w-2/4 flex justify-center relative">
+        <div class="sm:w-2/4 flex justify-center relative">
             
             <!-- img as background -->
             <img class="-z-10" src="./img/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg">
 
-            <!-- Graphic design text -->
-            <div class="absolute w-7/12 text-center bottom-20">
+            <!-- Photography text -->
+            <div class="absolute w-7/12 text-center md:bottom-6 lg:bottom-20">
                 <p class="text-darkSaturatedCyan font-bold text-2xl">Photography</p>
                 <p class="mt-4 font-semibold text-darkSaturatedCyan">
                     Increase your credibility by getting the most
@@ -148,6 +150,119 @@
 
         </div>
     </div>
+    <!-- Fruits; desktop only (END) -->
+
+    <!-- Fruits for mobiles -->
+    <div class="sm:hidden">
+        <div  class="relative">
+            <img class="" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg" alt="">
+            <!-- Photography text text -->
+            <div class="absolute text-center px-3 bottom-20 sm:bottom-16">
+                <p class="text-darkSaturatedCyan font-bold text-3xl">Graphic Design</p>
+                <p class="mt-6 font-semibold text-lg text-darkSaturatedCyan tracking-tighter">
+                    Great design makes you memorable. We deliver
+                    artwork that underscores your bran message
+                    and captures potential clients' attention.
+                </p>
+            </div>
+        </div>
+        <div  class="relative">
+            <img class="" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg" alt="">
+            <!-- Photography text text -->
+            <div class="absolute text-center px-4 bottom-16 sm:bottom-16">
+                <p class="text-darkBlue font-bold text-3xl">Photography</p>
+                <p class="mt-6 font-semibold text-lg text-darkBlue tracking-tighter">
+                    Increase your credibility by getting the most
+                    stunning, high-quality photos that improve your
+                    business image.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Fruits for mobiles (END) -->
+    
+    <!-- Testimonial -->
+    <h2 class="font-barlow text-center py-8 font-bold text-2xl uppercase">Client testimonials</h2>
+    <div class="px-6 pb-10 text-center flex flex-col space-y-12 md:space-y-0 md:flex-row">
+        <!-- Title -->
+        <!-- Emily -->
+        <div class="testimonial pt-2 pb-4 flex flex-col items-center md:space-y-8 space-y-6">
+            <img class="rounded-full w-32" src="./img/sunnyside-agency-landing-page-main/images/image-emily.jpg">
+            <p class="px-2 font-barlow font-black text-lg">
+                We put our trust in Sunnyside and they
+                delivered, making sure our needs were
+                met and deadlines were always hit.
+            </p>
+            <div class=""><!-- Testimonial by -->
+                <h1 class="pb-3 text-veryDarkSaturatedBlue font-fraunces font-black text-2xl">Emily R.</h1>
+                <h1 class="font-barlow font-black text-lg">Marketing Director</h1>
+            </div>
+
+        </div>
+        <!-- Thomas -->
+        <div class="testimonial pt-2 pb-4 flex flex-col items-center space-y-8">
+            <img class="rounded-full w-32" src="./img/sunnyside-agency-landing-page-main/images/image-thomas.jpg">
+            <p class="px-2 font-barlow font-black text-lg">
+                Sunnyside's enthusiasm coupled with  
+                their keen interest in our brand's success
+                made it a satisfying and enjoyable
+                experience.
+            </p>
+            <div class=""><!-- Testimonial by -->
+                <h1 class="pb-3 text-veryDarkSaturatedBlue font-fraunces font-black text-2xl">Thomas S.</h1>
+                <h1 class="font-barlow font-black text-lg">Chief Operating Officer</h1>
+            </div>
+
+        </div>
+        <!-- Jennie -->
+        <div class="testimonial pt-2 pb-4 flex flex-col items-center space-y-8">
+            <img class="rounded-full w-32" src="./img/sunnyside-agency-landing-page-main/images/image-jennie.jpg">
+            <p class="px-0 font-barlow font-black text-lg">
+                Incredible end result! Our sales increased
+                over 400% when we worked with
+                Sunnyside. Highly recommended!
+            </p>
+            <div class=""><!-- Testimonial by -->
+                <h1 class="pb-3 text-veryDarkSaturatedBlue font-fraunces font-black text-2xl">Jennie F.</h1>
+                <h1 class="font-barlow font-black text-lg">Bussiness Owner</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Testimonial (END) -->
+
+    <!-- img grid (at least in mobile) -->
+    <div class="grid grid-cols-2 md:flex">
+        <img class="min-w-0" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-gallery-milkbottles.jpg">
+        <img class="min-w-0" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-gallery-orange.jpg">
+        <img class="min-w-0" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-gallery-cone.jpg">
+        <img class="min-w-0" src="./img/sunnyside-agency-landing-page-main/images/mobile/image-gallery-sugar-cubes.jpg">
+    </div>
+
+    <!-- Footer -->
+
+    <div class="py-16 bg-footerColor flex flex-col space-y-8 md:items-center">
+        <!-- logo -->
+        <img class="md:w-40 md:px-0 md:pb-0 px-20 pb-10" src="./img/sunnyside-agency-landing-page-main/images/logoCyan.svg">
+        <!-- links -->
+        <div class="links flex justify-between px-10 text-darkSaturatedCyan text-xl font-bold md:space-x-6">
+            <a class="hover:text-darkModerateCyan" href="">About</a>
+            <a class="hover:text-darkModerateCyan" href="">Services</a>
+            <a class="hover:text-darkModerateCyan" href="">Projects</a>
+        </div>
+        <!-- socials -->
+        <div class="flex justify-center pt-14 md:pt-8 md:pb-0 pb-4 space-x-8">
+            <img src="./img/sunnyside-agency-landing-page-main/images/icon-facebook.svg">
+            <img src="./img/sunnyside-agency-landing-page-main/images/icon-instagram.svg">
+            <img src="./img/sunnyside-agency-landing-page-main/images/icon-twitter.svg">
+            <img src="./img/sunnyside-agency-landing-page-main/images/icon-pinterest.svg">
+        </div>
+
+    </div>
+
+    <!-- Footer (END) -->
+
 
 
 

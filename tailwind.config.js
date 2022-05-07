@@ -13,12 +13,13 @@ module.exports = {
         darkGrayishBlue: 'hsl(232, 10%, 55%)',
         grayishBlue: 'hsl(210, 4%, 67%)',
         white: 'hsl(0, 0%, 100%)',
-        transparentWhite: 'rgba(255, 255, 255,0.25)'
+        transparentWhite: 'rgba(255, 255, 255,0.25)',
+        footerColor: '#90d4c5'
       },
       fontFamily: {
         'barlow': ['Barlow', 'sans-serif'],
-        'fraunces': ['Frunces', 'serif'] ,
-        'frauncesCursive': ['Frunces', 'cursive'] 
+        'fraunces': ['Frunces', 'serif'] /* ,
+        'frauncesCursive': ['Frunces', 'cursive']  */
       }
     },
   },
