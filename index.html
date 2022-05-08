@@ -13,13 +13,12 @@
 <body>
 
     <!-- First div; welcome block -->
-    <div class="welcome w-full min-h-screen">
+    <div class="welcome w-full min-h-screen relative">
 
         <!-- navigation -->
         <div class="welcome__navigation flex p-6 justify-between items-center">
 
             <!--  -->
-
             <div class="welcome__logo">
                 <img src="./img/sunnyside-agency-landing-page-main/images/logo.svg" alt="">
             </div>
@@ -33,7 +32,28 @@
                 </a>
             </div>
 
+            <!-- Menu button, for the responsive menu -->
+            <div id="navBtn" class="space-y-2">
+                <span class="block w-7 h-0.5 rounded bg-white"></span>
+                <span class="block w-7 h-0.5 rounded bg-white"></span>
+                <span class="block w-7 h-0.5 rounded bg-white"></span>
+            </div>
+
         </div>
+
+        <div id="mobileMenuContainer" class="md:hidden relative mx-auto w-10/12 mt-4">
+            <div id="mobileMenu" class=" bg-white w-full absolute flex flex-col items-center space-y-2 py-10
+                        font-barlow font-extrabold text-darkGrayishBlue text-lg hidden">
+
+                <a class="py-3 px-8 rounded-full hover:bg-yellow" href="">About</a>
+                <a class="py-3 px-8 rounded-full hover:bg-yellow" href="">Services</a>
+                <a class="py-3 px-8 rounded-full hover:bg-yellow" href="">Project</a>
+                <a class="py-3 px-8 rounded-full hover:bg-yellow" href="">CONTACT</a>
+
+            </div>
+        </div>        
+
+
         <!-- Heading -->
         <h1 class="text-bold text-5xl mt-8 md:mt-24 mb-3 font-black uppercase text-white text-center font-fraunces
             container mx-auto leading-tight md:leading-none">
@@ -263,8 +283,6 @@
 
     <!-- Footer (END) -->
 
-
-
-
+    <script src="./js/main.js"></script>
 </body>
 </html>

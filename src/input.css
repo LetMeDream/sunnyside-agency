@@ -15,13 +15,7 @@
     background-repeat: no-repeat;
 
 }
-/* .cereza{
-    background-image: url('/img/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 600px;
-}
- */
+
 @media screen and (min-width: 400px) {
     /* background */
     .welcome{
@@ -30,4 +24,43 @@
         background-repeat: no-repeat;
         background-position: bottom;
     }
+}
+
+/* Responsive menu */
+#navBtn, #navBtn span {
+    transition: all .4s ease-in-out;
+}
+/* This is the last rotation on the animation */
+#navBtn.active{
+    transition-delay: .8s;
+    transform: rotate(45deg);
+}
+/* Dissapearing middle span */
+#navBtn.active span:nth-child(2){
+    width: 0;
+}
+#navBtn.active span:nth-child(1),#navBtn.active span:nth-child(3){
+    transition-delay: .4s;
+}
+#navBtn.active span:nth-child(1){
+    transform: translateY(9px);
+}
+#navBtn.active span:nth-child(3){
+    transform: translateY(-11px) rotate(90deg);
+}
+
+/* Doing the fancy top right corner */
+#mobileMenuContainer.active:before{
+    content: "";
+    position:absolute;
+    height: 0;
+    width: 0;
+    background:transparent;
+    right: 0;
+    top:-18px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+
 }
